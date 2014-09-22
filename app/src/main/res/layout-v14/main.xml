@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="right"
+    android:background="@color/white"
+    >
+
+
+    <!--<GridLayout-->
+        <!--android:id="@+id/TimerGrid"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:padding="10dp">-->
+
+        <!--<LinearLayout android:orientation="horizontal"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_row="0"-->
+            <!--android:layout_column="0">-->
+            <!--<EditText-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:inputType="numberSigned"-->
+                <!--android:ems="10"-->
+                <!--android:id="@+id/editMinutes"-->
+                <!--android:textSize="36sp"-->
+                <!--android:text="0"-->
+                <!--android:maxWidth="10dp"-->
+                <!--android:minWidth="10dp"-->
+                <!--android:minLines="1"-->
+                <!--android:maxLength="3"/>-->
+            <!--<TextView-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Minutes"-->
+                <!--android:id="@+id/textView3"-->
+                <!--android:textSize="36dp" />-->
+
+        <!--</LinearLayout>-->
+
+
+        <!--<LinearLayout android:orientation="horizontal"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_row="1">-->
+
+            <!--<EditText-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:inputType="numberSigned"-->
+                <!--android:ems="10"-->
+                <!--android:id="@+id/editSeconds"-->
+                <!--android:textSize="36sp"-->
+                <!--android:text="15"-->
+                <!--android:maxLength="3"/>-->
+
+            <!--<TextView-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Seconds"-->
+                <!--android:id="@+id/textView4"-->
+                <!--android:textSize="36dp" />-->
+        <!--</LinearLayout>-->
+
+
+
+
+        <!--<Button-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:padding="30dp"-->
+            <!--android:text="Set Light Time"-->
+            <!--android:id="@+id/button"-->
+            <!--android:layout_row="2"-->
+            <!--android:layout_column="0"-->
+            <!--android:onClick="hideTimer"/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="100dp"-->
+            <!--android:layout_height="100dp"-->
+
+            <!--android:text="Quit"-->
+            <!--android:id="@+id/buttonExit"-->
+            <!--android:layout_row="3"-->
+            <!--android:layout_column="0"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:background="#ffff8370"-->
+            <!--android:textSize="40dp"-->
+            <!--android:onClick="exitApplication"/>-->
+
+    <!--</GridLayout>-->
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_gravity="bottom"
+        android:text="Quit"
+        android:id="@+id/buttonExit"
+        android:background="#ffff8370"
+        android:textSize="28dp"
+        android:onClick="exitApplication"
+        android:layout_margin="1dp" />
+</LinearLayout>
